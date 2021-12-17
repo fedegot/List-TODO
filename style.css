@@ -1,0 +1,77 @@
+.body{
+display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+justify-content: flex-start;
+flex-direction: row;
+height: 100%;
+width: 600px;
+margin:0 auto;
+margin-top: 20px;
+background: rgb(2,0,36);
+background: linear-gradient(43deg, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 41%, rgba(0,212,255,1) 100%);
+color: white;
+
+    
+}
+
+
+.header{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 40px;
+background-color: rgb(121, 121, 121);
+opacity: 0.7;
+}
+
+
+.add{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+height: 25px;
+width: 100%;
+
+}
+
+.exe{
+border: 1px solid rgb(0, 0, 0);
+display: flex;
+width: 100%;
+height: auto;
+font-size: 10px;
+}
+
+.input {
+width: 100%;
+box-sizing: border-box;
+height: 20px;
+}
+
+
+.button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:2px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
